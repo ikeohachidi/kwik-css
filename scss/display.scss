@@ -1,0 +1,52 @@
+$positions: 'start', 'center', 'end';
+$alignment: 'column', 'row';
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.flex {
+	display: flex;
+
+	@each $direction in $alignment {
+		&.#{$direction}-reverse {
+			flex-direction: "#{$direction}-reverse";
+		}
+
+		&.#{$direction} {
+			flex-direction: #{$direction};
+		}
+	}
+
+	&.grow {
+		flex-grow: 1
+	}
+
+	&.wrap {
+		flex-wrap: wrap;
+	}
+	&.between {
+		justify-content: space-between;
+	}
+	&.evenly {
+		justify-content: space-evenly;
+	}
+}
+
+.center {
+	display: flex;
+	align-items: center;
+}
+
+@each $position in $positions {
+	.items-#{$position} {
+		align-items: $position;
+	}
+	.content-#{$position} {
+		align-content: $position;
+	}
+}

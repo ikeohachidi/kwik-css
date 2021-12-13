@@ -1,0 +1,19 @@
+$positions: top, right, bottom, left;
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.fixed {
+	position: fixed;
+}
+
+@each $position in $positions {
+	.#{$position}-0 {
+		#{$position}: 0;
+	}
+}

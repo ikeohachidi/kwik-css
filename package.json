@@ -1,0 +1,24 @@
+{
+  "name": "kwik-sass",
+  "version": "1.0.0",
+  "description": "Essential css class in my opinion",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikeohachidi/kwik-sass.git"
+  },
+  "author": "Ikeoha Chidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikeohachidi/kwik-sass/issues"
+  },
+  "homepage": "https://github.com/ikeohachidi/kwik-sass#readme",
+  "devDependencies": {
+    "rollup": "^2.61.1",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.45.0"
+  }
+}
