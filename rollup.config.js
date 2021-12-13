@@ -8,7 +8,7 @@ export default {
 	},
 	plugins: [
 		scss({
-			output: 'index.css',
+			output: 'kwik.css',
 			outputStyle: 'compressed'
 		})
 	]

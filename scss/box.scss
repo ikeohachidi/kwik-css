@@ -53,13 +53,22 @@ $margins: (
 @for $i from 1 to 20 {
 	@each $padding, $position in $paddings {
 		.#{$padding}-#{$i} {
-			padding-#{$position}: "#{$i}px";
+			padding-#{$position}: #{$i}px;
 		}
+	}
+
+	.py-#{$i} {
+		padding-top: #{$i}px;
+		padding-bottom: #{$i}px;
+	}
+	.px-#{$i} {
+		padding-left: #{$i}px;
+		padding-right: #{$i}px;
 	}
 
 	@each $margin, $position in $margins {
 		.#{$margin}-#{$i} {
-			margin-#{$position}: "#{$i}px";
+			margin-#{$position}: #{$i}px;
 		}
 	}
 }

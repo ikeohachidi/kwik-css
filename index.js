@@ -1,0 +1,1 @@
+import './kwik.css';
