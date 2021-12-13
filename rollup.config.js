@@ -8,7 +8,7 @@ export default {
 	},
 	plugins: [
 		scss({
-			output: 'boot.css',
+			output: 'index.css',
 			outputStyle: 'compressed'
 		})
 	]
