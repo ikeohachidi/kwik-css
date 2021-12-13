@@ -1,6 +1,6 @@
 {
   "name": "kwik-css",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Essential css class in my opinion",
   "main": "index.js",
   "scripts": {

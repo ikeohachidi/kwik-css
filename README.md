@@ -4,6 +4,16 @@ The minimal css classes needed to get started with most projects in my opinion.
 
 Not supposed to be an alternative to Tailwind or Bootstrap but can be used when you just some utility classes and will most likely write most of your styles yourself.
 
+### Installation
+**NPM**
+```shell
+npm i kwik-css
+```
+**Usage**
+```javascript
+import 'kwik-css';
+```
+
 ## Classes
 **Colors**
 ```css
