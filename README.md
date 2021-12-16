@@ -22,7 +22,7 @@ import 'kwik-css';
 .pb-<number>
 .pl-<number>
 ```
-Ranges from 0 to 19 with values all in `px`
+Ranges from 0 to 5 with values all in `em`
 
 **Margin**
 ```css
@@ -38,7 +38,7 @@ Ranges from 0 to 19 with values all in `px`
 .mb-<number>
 .ml-<number>
 ```
-Ranges from 0 to 19 with values all in `px`
+Ranges from 0 to 5 with values all in `em`
 
 
 **Display**
