@@ -14,19 +14,6 @@ npm i kwik-css
 import 'kwik-css';
 ```
 
-## Classes
-**Colors**
-```css
---gray-1: #dbdbdb;
---gray-2: #b8b8b8;
---blue-1: #5c7aea;
---blue-2: #14279b;
---green-1: #38a3a5;
---green-2: #80ed99;
---red-1: #ec255a;
---red-2: #f90716;
-```
-
 **Padding**
 ```css
 .p-<number>
