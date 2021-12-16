@@ -11,31 +11,32 @@ $alignment: 'column', 'row';
 
 .flex {
 	display: flex;
+}
 
-	@each $direction in $alignment {
-		&.#{$direction}-reverse {
-			flex-direction: "#{$direction}-reverse";
-		}
-
-		&.#{$direction} {
-			flex-direction: #{$direction};
-		}
+@each $direction in $alignment {
+	.#{$direction}-reverse {
+		flex-direction: #{$direction}-reverse;
 	}
 
-	&.grow {
-		flex-grow: 1
-	}
-
-	&.wrap {
-		flex-wrap: wrap;
-	}
-	&.between {
-		justify-content: space-between;
-	}
-	&.evenly {
-		justify-content: space-evenly;
+	.#{$direction} {
+		flex-direction: #{$direction};
 	}
 }
+
+.grow {
+	flex-grow: 1
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+.between {
+	justify-content: space-between;
+}
+.evenly {
+	justify-content: space-evenly;
+}
+	
 
 .center {
 	display: flex;
