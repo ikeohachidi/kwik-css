@@ -50,25 +50,28 @@ $margins: (
 	}
 }
 
-@for $i from 1 to 20 {
+@for $i from 1 through 5 {
+	$factor: #{$i * 0.5}em;
+
 	@each $padding, $position in $paddings {
 		.#{$padding}-#{$i} {
-			padding-#{$position}: #{$i}px;
+			padding-#{$position}: $factor;
 		}
-	}
-
-	.py-#{$i} {
-		padding-top: #{$i}px;
-		padding-bottom: #{$i}px;
-	}
-	.px-#{$i} {
-		padding-left: #{$i}px;
-		padding-right: #{$i}px;
 	}
 
 	@each $margin, $position in $margins {
 		.#{$margin}-#{$i} {
-			margin-#{$position}: #{$i}px;
+			margin-#{$position}:$factor;
 		}
 	}
+
+	.py-#{$i} {
+		padding-top: $factor;
+		padding-bottom: $factor;
+	}
+	.px-#{$i} {
+		padding-left: $factor;
+		padding-right: $factor;
+	}
+
 }
