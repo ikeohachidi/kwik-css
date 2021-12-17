@@ -65,6 +65,12 @@ $margins: (
 		}
 	}
 
+	.p-#{$i} {
+		padding: $factor;
+	}
+	.m-#{$i} {
+		margin: $factor;
+	}
 	.py-#{$i} {
 		padding-top: $factor;
 		padding-bottom: $factor;
