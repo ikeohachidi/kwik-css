@@ -55,8 +55,9 @@ Ranges from 0 to 5 with values all in `em`
 .grow /*flex-grow: 1*/
 .center /* center items */
 .wrap
-.between /* justify-content: space-between */
-.evenly /* justify-content: space-evenly */
+.jc-center /* justify-content: center */
+.jc-between /* justify-content: space-between */
+.jc-evenly /* justify-content: space-evenly */
 
 /* align-items */
 .items-start
