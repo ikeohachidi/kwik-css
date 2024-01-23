@@ -11,7 +11,7 @@ npm i kwik-css
 ```
 **Usage**
 ```javascript
-import 'kwik-css';
+import 'kwik-css/kwik.css';
 ```
 
 **Padding**
